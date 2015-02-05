@@ -17,6 +17,8 @@ body {
 }
 #foreground {
     z-index:100;
+    font-size:1vw;
+    letter-spacing:.05em;
 }
 #foreground .help {
     background-color: rgba(0,0,0,0.5);
@@ -30,12 +32,10 @@ body {
 }
 #foreground .help ul {
     list-style:none;
-    font-size:150%;
-    letter-spacing:.05em;
 }
 #foreground .help ul li span {
     display:inline-block;
-    min-width:100px;
+    min-width:4vw;
     margin-right:.3em;
     text-align:right;
     color:#fff;
